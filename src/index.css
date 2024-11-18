@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  background: #000;
+  overflow-x: hidden;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}

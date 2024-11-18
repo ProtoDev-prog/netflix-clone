@@ -1,0 +1,68 @@
+.login {
+  background: linear-gradient(to right, #22222254, #22222254),
+    url("../../assets/background_banner.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 3%;
+}
+.login .logo {
+  width: 12rem;
+}
+.contents {
+  background: rgb(0, 0, 0);
+  padding: 3rem;
+  width: 35rem;
+  margin: 5rem auto;
+}
+.contents > h2 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.inputs input {
+  margin: 0.5rem 0;
+  width: 100%;
+  padding: 1rem;
+  background: #222;
+  border: none;
+  border-radius: 0.3rem;
+  outline: none;
+  color: #fff;
+}
+.contents > button {
+  width: 100%;
+  margin-top: 2.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: #f00;
+  color: #fff;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  font-size: 1.4rem;
+}
+.spinner {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+}
+.controls .check {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+.contents > p {
+  color: #222;
+  margin-top: 5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}

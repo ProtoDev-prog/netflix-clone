@@ -1,0 +1,69 @@
+.hero {
+  position: relative;
+}
+.hero .banner {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.hero .hero-caption {
+  position: absolute;
+  bottom: 0rem;
+  padding: 2rem 3%;
+}
+.hero-caption .hero-title {
+  width: 40rem;
+}
+.hero-caption p {
+  width: 72rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.btns button {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  align-items: center;
+}
+.btns button img {
+  width: 2.4rem;
+}
+.btns button:nth-child(2) {
+  color: #fff;
+  background-color: #ffffff73;
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .hero .banner {
+    height: 80vh;
+  }
+  .hero .hero-caption {
+    bottom: 3%;
+    padding: 0 3%;
+  }
+  .hero-caption p {
+    width: 58rem;
+  }
+  .hero-caption .hero-title {
+    width: 30rem;
+  }
+  .hero-caption p {
+    font-size: 1.4rem;
+  }
+}

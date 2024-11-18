@@ -1,0 +1,31 @@
+.player{
+    height: 100vh;
+    flex-direction: column;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.back-icon{
+    width: 4rem;
+    z-index: 10;
+    top: .5rem;
+    left: .5rem;
+    position: absolute;
+    margin: 2rem;
+    cursor: pointer;
+}
+iframe{
+    width: 80%;
+    height: 80%;
+}
+.details{
+    margin-top: 2rem;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.details p{
+    font-size: 1.5rem;
+}
